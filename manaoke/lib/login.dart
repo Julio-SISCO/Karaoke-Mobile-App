@@ -36,6 +36,7 @@ class _LoginState extends State<Login> {
                   'Bon retour !',
                   style: GoogleFonts.bebasNeue(
                     fontSize: 50,
+                    letterSpacing: 4,
                     color: Colors.white,
                   ),
                 ),

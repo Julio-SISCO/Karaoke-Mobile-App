@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:manaoke/helpers/colors.dart';
-import 'package:manaoke/login.dart';
+import 'package:manaoke/home.dart';
+// import 'package:manaoke/login.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: AppColors.defaut),
         useMaterial3: true,
       ),
-      home: Login(),
+      home: const HomePage(title: 'Accueil'),
     );
   }
 }
